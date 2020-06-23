@@ -11,5 +11,13 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.8.2",
+    "esri-loader": "^2.14.0",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.4.6"
   }
 }

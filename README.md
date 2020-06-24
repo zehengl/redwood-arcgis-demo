@@ -1,15 +1,12 @@
-# Redwood
->**HEADS UP:** RedwoodJS is _NOT_ ready for use in Production. It relies heavily on Prisma2, which is currently in testing with an expected production release coming soon. See status at ["Is Prisma2 Ready?"](https://isprisma2ready.com)
+# redwood-arcgis-demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b1eb2a2-89d4-45b4-b1ae-64040dfc1ecf/deploy-status)](https://app.netlify.com/sites/redwood-arcgis-demo/deploys)
 
 ## Getting Started
-- [Redwoodjs.com](https://redwoodjs.com): home to all things RedwoodJS.
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
 
 ### Setup
 
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
+To get the dependencies installed, just do this in the root directory:
 
 ```terminal
 yarn install
@@ -26,10 +23,6 @@ Your browser should open automatically to `http://localhost:8910` to see the web
 ## Development
 
 ### Database
-
-We're using [Prisma2](https://github.com/prisma/prisma2), a modern DB toolkit to query, migrate and model your database.
-
-Prisma2 is [not ready for production](https://isprisma2ready.com) at the moment.
 
 To create a development database:
 

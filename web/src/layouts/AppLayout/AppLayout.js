@@ -99,6 +99,16 @@ const AppLayout = ({ children }) => {
             </div>
           </div>
         </main>
+        <footer className="w-full border-t border-grey p-2 pin-b">
+          <div className="flex items-center justify-center w-screen">
+            <a href="https://www.netlify.com">
+              <img
+                src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+                alt="Deploys by Netlify"
+              />
+            </a>
+          </div>
+        </footer>
       </div>
     </>
   )

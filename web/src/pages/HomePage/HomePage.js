@@ -4,6 +4,7 @@ import AppLayout from 'src/layouts/AppLayout'
 
 const HomePage = () => {
   const mapRef = useRef()
+  const baseUrl = 'http://localhost:8910'
 
   useEffect(() => {
     loadModules(
@@ -81,9 +82,10 @@ const HomePage = () => {
       })
 
       const showPopup = (address, pt) => {
+        const id = btoa(address)
         view.popup.open({
           title: address,
-          content: 'See Detail',
+          content: `<a class="bg-white hover:bg-gray-100 text-gray-800 font-semibold rounded" target='_blank' href='${baseUrl}/locations/${id}'>See detail.</a>`,
           location: pt,
         })
       }

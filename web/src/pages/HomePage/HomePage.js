@@ -4,7 +4,7 @@ import AppLayout from 'src/layouts/AppLayout'
 
 const HomePage = () => {
   const mapRef = useRef()
-  const baseUrl = 'http://localhost:8910'
+  const baseUrl = 'https://redwood-arcgis-demo.netlify.app'
 
   useEffect(() => {
     loadModules(

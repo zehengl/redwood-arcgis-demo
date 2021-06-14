@@ -7,5 +7,8 @@
   },
   "[prisma]": {
     "editor.formatOnSave": true
-  }
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.productIconTheme": "material-product-icons",
 }

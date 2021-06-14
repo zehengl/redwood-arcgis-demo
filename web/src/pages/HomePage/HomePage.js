@@ -14,21 +14,20 @@ const HomePage = () => {
         'esri/views/MapView',
         'esri/widgets/Search',
         'esri/tasks/Locator',
-        'esri/layers/MapImageLayer',
       ],
       {
         css: true,
       }
-    ).then(([Map, TileLayer, MapView, Search, Locator, MapImageLayer]) => {
+    ).then(([Map, TileLayer, MapView, Search, Locator]) => {
       const map = new Map()
 
       const basemap = new TileLayer({
         url:
-          'http://gis.calgary.ca/arcgis/rest/services/pub_Basemap/CalgaryBasemap_WMASP_PNG/MapServer',
+          'https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Calgary_Basemap/MapServer',
       })
-      const solar = new MapImageLayer({
+      const solar = new TileLayer({
         url:
-          'http://gis.calgary.ca/arcgis/rest/services/pub_CalgaryDotCa/SolarPotential/MapServer',
+          'https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Solar_Potential/MapServer',
       })
       map.layers.add(basemap)
       map.add(solar)

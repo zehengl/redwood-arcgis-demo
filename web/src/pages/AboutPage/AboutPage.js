@@ -40,15 +40,15 @@ const AboutPage = () => {
                           TileLayer
                         </div>
                         <div className="text-sm leading-5 text-gray-500">
-                          CalgaryBasemap_WMASP_PNG
+                          Calgary_Basemap
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                     <div className="text-sm leading-5 text-gray-900">
-                      <a href="http://gis.calgary.ca/arcgis/rest/services/pub_Basemap/CalgaryBasemap_WMASP_PNG/MapServer">
-                        gis.calgary.ca/arcgis/rest/services/pub_Basemap/CalgaryBasemap_WMASP_PNG/MapServer
+                      <a href="https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Calgary_Basemap/MapServer">
+                        tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Calgary_Basemap/MapServer
                       </a>
                     </div>
                   </td>
@@ -72,18 +72,18 @@ const AboutPage = () => {
                       </div>
                       <div className="ml-4">
                         <div className="text-sm leading-5 font-medium text-gray-900">
-                          MapImageLayer
+                          TileLayer
                         </div>
                         <div className="text-sm leading-5 text-gray-500">
-                          SolarPotential
+                          Solar_Potential
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                     <div className="text-sm leading-5 text-gray-900">
-                      <a href="http://gis.calgary.ca/arcgis/rest/services/pub_CalgaryDotCa/SolarPotential/MapServer">
-                        gis.calgary.ca/arcgis/rest/services/pub_CalgaryDotCa/SolarPotential/MapServer
+                      <a href="https://tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Solar_Potential/MapServer">
+                        tiles.arcgis.com/tiles/AVP60cs0Q9PEA8rH/arcgis/rest/services/Solar_Potential/MapServer
                       </a>
                     </div>
                   </td>
